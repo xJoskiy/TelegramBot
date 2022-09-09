@@ -46,6 +46,7 @@ def main():
                 bot.send_message(message.chat.id, "Новое расписание!")
 
     bot.polling(none_stop=True)
+    # Sometimes shit happens
 
 
 if __name__ == '__main__':
